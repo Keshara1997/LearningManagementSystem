@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+#doctors {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#doctors td, #doctors th {
+  border: 10px solid black;
+  padding: 10px;
+  background-color: #7FFFD4;
+  
+}
+
+
+
+#doctors th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.button{
+	 background-color: #4CAF50;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+	
+	
+	
+}
+.registerbtn {
+  background-color: #2F4F4F;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 10px;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+  margin-left: 40px;
+  margin-right: auto;
+  text-align: center;
+}

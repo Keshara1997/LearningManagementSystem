@@ -1,0 +1,174 @@
+@charset "ISO-8859-1";
+/*header*/
+*{margin: 0;}
+*{	box-sizing: border-box;}
+body {
+	font-family: "Montserrat", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.wrapper
+{
+	position: relative;
+}
+.fix{overflow: auto;}
+
+header
+{
+	background: linear-gradient(to right, #009879,#39B7CD);
+	height: 150px;
+}
+
+
+header .logo
+{
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: 70px;
+	text-align: Right;
+}
+header .socialmedia
+{
+	float:right;
+	margin-top: 50px;
+	margin-right: 20px;
+
+}
+
+ .logoname{
+	font-size:50px;
+	display: block;
+	margin:-125px 160px auto;
+	
+	 
+ }
+
+header .socialmedia ul
+{
+	list-style: none
+}
+
+header .socialmedia ul li
+{
+	display: inline;
+
+}
+header .socialmedia ul li a
+{
+	display: inline-block;
+	border-radius: 10px;
+}
+header .socialmedia ul li a:hover
+{
+	background:orange; 
+}
+.navbar {
+  background: #009879;
+  position: sticky;
+  top: 0;
+  height: 60px;
+
+}
+
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  padding: 0 18px;
+  text-decoration: none;
+  line-height: 60px;
+}
+
+
+.login a
+{
+	float: right;
+}
+
+
+
+.fix{overflow: auto;}
+footer
+{
+	background: linear-gradient(to right,  #009879,#39B7CD);
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+footer .f-colom
+{
+	width: 388.33px;
+	float: left;
+	margin-left: 70px;
+	border-top: 1px solid white;
+	margin-top: 10px;
+}
+footer .footer-colom h3
+{
+	text-transform: uppercase;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+}
+
+footer .tweet p
+{
+	color: white;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+footer .tweet-adress
+{
+	margin-bottom: 15px;
+}
+footer .tweet-adress p
+{
+	color: white;
+	font-size: 16px;
+}
+.social
+{
+	text-align: center;
+	margin-right: 40px;
+
+}
+.social ul
+{
+	list-style: none
+}
+
+.social ul li
+{
+	display: inline;
+
+}
+.social ul li a
+{
+	display: inline-block;
+	border-radius: 50%;
+    line-height: 0;
+}
+.social ul li a:hover
+{
+	background:#583629; 
+}
+.copyright
+{
+	background: linear-gradient(to right,  #009879,#39B7CD);
+	padding-bottom: 20px;
+}
+div.left
+{
+	margin-top: 20px;
+	float: left;
+	margin-left: 15px;
+	color: white;
+}
+div.right
+{
+	margin-top: 20px;
+	float: right;
+	margin-right: 15px;
+	color: white;
+}

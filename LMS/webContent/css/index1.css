@@ -1,0 +1,270 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+	
+	font: 15px/1.5 "Ubuntu",sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4; 
+
+}
+
+/*Global*/
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+header{
+	background: #0D586A;
+	color:#ffffff;
+	z-index: 10;
+	min-height: 70px;
+	border-bottom: #dd3822 5px solid;
+	position: fixed;
+	width: 100%;
+
+
+}
+ul{
+	margin:0;
+	padding: 0;
+}
+
+
+/* Local*/
+header a{
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px; 
+}
+
+header li{
+	display: inline-block;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float: left;
+	font-size: 20px;
+	
+}
+header #branding h1{
+	margin: 0;
+	
+}
+header nav{
+	float: right;
+	margin-top: -40px;
+	font-weight: bold;
+}
+header .highlight{
+	color: #dd3822;
+	font-weight: bolder;
+	letter-spacing: -3px;
+}
+header .current a{
+	color:#ff8473;
+	font-weight: bold;
+	font-size:px;
+}
+header a:hover{
+	color: #ff8473;
+	border-top:#ff8473 3px solid;
+	transition: 500ms;
+}
+/*Showcase*/
+#showcase{
+	min-height: 700px;
+	background: url("../images/rawpixel-577480-unsplash.jpg") no-repeat 0 ;
+	background-size: 1600px;
+	text-align: center;
+
+	
+}
+#showcase h1{
+
+	margin-top: 550px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+#showcase p{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+/*Newsletter*/
+#newsletter{
+	border-top: #dd3822 5px solid;
+	padding-top: 15px;
+	color: white;
+	background:#0D586A;
+	border-bottom:#dd3822 5px solid;
+	
+	position: relative;
+	
+	
+}
+
+
+/*Boxes*/
+
+#boxes{
+	
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: url("../images/header1.png") 0 -200px;
+	background-size:cover;
+	
+}
+#boxes .box{
+	margin-left: -7px;
+	float: left;
+	width: 30%;
+	padding: 20px;
+	text-align: center;
+	
+}
+#boxes .box:hover{
+
+	background-color: rgb(13, 88, 106,0.8);
+	border-radius:50px;
+	padding:20px;
+
+
+	
+}
+#boxes .box img{
+	width:90px;
+	
+
+}
+
+
+
+footer{
+	border-top: #dd3822 5px solid;
+	position: relative;
+	padding: 20px;
+	padding-top: 20px;
+	color: white;
+	background-color: #0D586A;
+	text-align: center; 
+}
+
+/*Button*/
+.button{
+	text-decoration: none;
+	color:black;
+
+}
+.button:hover{
+	color: white;
+	transition: 500ms;
+	
+
+}
+
+.bg_img{
+	content: "";
+	background: url(../images/marcelo-leal-664865-unsplash.jpg);
+	background-size: cover;
+
+}
+.main{
+	margin: 0;
+	padding: 0;  
+}
+
+.content{
+	border-top: #dd3822 5px solid;
+	position: relative;
+	padding: 20px;
+	padding-top: 20px;
+	color: white;
+	background-color: #0D586A;
+	text-align: center; 
+}
+.footer-grids{
+	float: left; 
+}
+p{
+	box-sizing: border-box;
+	line-height: 25px;
+	font-size: 15px;
+
+}
+#main{
+	background-image: url("../images/header1.png");
+	background-size: cover;
+	padding-top: 60px;
+	
+}
+
+.subm
+{
+	
+    margin-bottom: 20px;
+}
+
+
+ul.breadcrumb {
+    float: left;
+    padding: 10px 16px;
+    list-style: none;
+   
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: white;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+ul.breadcrumb2 {
+    float: right;
+    padding: 10px 16px;
+    list-style: none;
+   
+}
+ul.breadcrumb2 li {
+    display: inline;
+    font-size: 15px;
+}
+ul.breadcrumb2 li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb2 li a {
+    color: white;
+    text-decoration: none;
+}
+ul.breadcrumb2 li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.foll
+{
+    margin-right: 20px;
+
+}
+.backc{
+	background-color: rgba(255,255,255,0.4);
+	padding: 5px;
+}
