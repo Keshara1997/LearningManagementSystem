@@ -104,7 +104,7 @@ body{
 	<br>
 	<br><br><br><br><br><br>
 	<div class="container">
-	<form action= "DoctorInsertServlet" method="post">
+	<form action= "StudentInsertServlet" method="post">
 	
 	<label for="fName"><b>First Name :</b></label>
 	<input type="text" placeholder="Enter First Name here" class="input" name="fName" required><br>
@@ -118,14 +118,14 @@ body{
 	<label for="contactNum"><b>Contact Number :</b></label>	
 	<input type="text" placeholder="Enter Your Contact number here"  class="input" name="contactNum"required><br>
 	
-	<label for="email"><b>Email Address :</b></label>	
-	<input type="text" placeholder="Enter Your Email Address" class="input" name="email"required><br>
+	<label for="email"><b>E mail :</b></label>	
+	<input type="text" placeholder="Enter Your Contact number here"  class="input" name="email"required><br>
 	
 	<label for="school"><b>School:</b></label>
 	<input type="text" placeholder="Enter the School" class="input"name="school" required><br>
 	
 	<label for="address"><b>address :</b></label>
-	<input type="Password" placeholder="Enter Address here" class="input"name="address"required ><br>
+	<input type="text" placeholder="Enter Address here" class="input"name="address"required ><br>
 	
 	<label for="medium"><b>Enter the Medium:</b></label>
 	<input type="text" placeholder="Medium" class="input" name="medium"required><br>
@@ -169,14 +169,4 @@ body{
 
 	</body>
 </html> 
-
-
-
-
-
-
-
-
-
-
 

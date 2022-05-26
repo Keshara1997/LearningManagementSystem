@@ -119,7 +119,7 @@ body{
 	%>
 	<div class="container">
 	<h1>Update My Profile</h1>
-	<form action ="update" method="post">
+	<form action ="updateStudent" method="post">
 	
 	Student ID <input type="text" name ="id" value ="<%=id%>"readonly><br>
 	Student First Name <input type="text" name ="fName" value ="<%=fName%>" readonly><br>

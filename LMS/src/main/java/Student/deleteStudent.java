@@ -1,5 +1,8 @@
 package Student;
 
+import java.io.IOException;
+import java.util.List;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,11 +17,11 @@ public class deleteStudent {
 	 * Servlet implementation class deleteStudent
 	 */
 	@WebServlet("/deleteStudent")
-	public class deleteStudent extends HttpServlet {
+	public class deletestudent extends HttpServlet {
 		private static final long serialVersionUID = 1L;
 	       
 	   
-	    public deleteStudent() {
+	    public deletestudent() {
 	        super();
 	    }
 		

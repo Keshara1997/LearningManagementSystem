@@ -14,8 +14,8 @@ public class StudentDBUtil {
 		
 		ArrayList<Student> stu = new ArrayList<>();
 		
-		//create db connection
-		String url = "jdbc:mysql://localhost:3306/hospital?autoReconnect=true&useSSL=false";
+		//create db connection 
+		String url = "jdbc:mysql://localhost:3306/lms?autoReconnect=true&useSSL=false";
 		String user ="root" ;
 		String pass ="";
 		
@@ -72,7 +72,7 @@ public class StudentDBUtil {
 		
 		boolean isSuccess=false;
 		
-		String url = "jdbc:mysql://localhost:3306/hospital?autoReconnect=true&useSSL=false";
+		String url = "jdbc:mysql://localhost:3306/lms?autoReconnect=true&useSSL=false";
 		String user ="root" ;
 		String pass ="kaveetha1996";
 		
@@ -114,7 +114,7 @@ public class StudentDBUtil {
 		int convertedID = Integer.parseInt(Id);
 		ArrayList<Student> stu = new ArrayList<>();
 		
-		String url = "jdbc:mysql://localhost:3306/hospital?autoReconnect=true&useSSL=false";
+		String url = "jdbc:mysql://localhost:3306/lms?autoReconnect=true&useSSL=false";
 		String user ="root" ;
 		String pass ="";
 		
@@ -166,9 +166,9 @@ public class StudentDBUtil {
 		return stu;
 	}
 	
-	public static boolean deletestudent(String id) {
+	public static boolean deleteStudent(String id) {
 		boolean isSuccess=false;
-		String url = "jdbc:mysql://localhost:3306/hospital?autoReconnect=true&useSSL=false";
+		String url = "jdbc:mysql://localhost:3306/lms?autoReconnect=true&useSSL=false";
 		String user ="root" ;
 		String pass ="";
 		
@@ -213,7 +213,7 @@ boolean isSuccess=false;
 		
 		
 		//create db connection
-			String url = "jdbc:mysql://localhost:3306/hospital?autoReconnect=true&useSSL=false";
+			String url = "jdbc:mysql://localhost:3306/lms?autoReconnect=true&useSSL=false";
 			String user ="root" ;
 			String pass ="";
 			

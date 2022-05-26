@@ -1,28 +1,24 @@
 package Student;
 
+import jakarta.servlet.http.HttpServlet;
 import java.io.IOException;
-import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
-
-@WebServlet("/updateStudent")
-public class updateStudent extends HttpServlet {
+/**
+ * Servlet implementation class StudentInsertServlet
+ */
+@WebServlet("/StudentInsertServlet")
+public class StudentInsertServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-   
-    public updateStudent() {
-        super();
-       
-    }
 
-	
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String id = request.getParameter("id");
 		String fname = request.getParameter("fname");
@@ -37,29 +33,27 @@ public class updateStudent extends HttpServlet {
 		String uName = request.getParameter("uName");
 		String passwd = request.getParameter("passwd");
 		
+		
 		boolean isTrue;
 		
-		isTrue= StudentDBUtil.updatestudent(id,fname,lname,bdy,contactNum,email,school,address,medium,year,uName,passwd);
-		
+		isTrue=StudentDBUtil.insertstudent(id, fname, lname, bdy, contactNum, email, school, address, medium, year, uName, passwd );
+	
 		if(isTrue == true) {
 			
-			List<Student> StudentDetails = StudentDBUtil.getStudentDetails(id);
-			request.setAttribute("StudentDetails", StudentDetails);
-		
-			RequestDispatcher dis = request.getRequestDispatcher("studentAccount.jsp");
+			RequestDispatcher dis = request.getRequestDispatcher("success.jsp");
 			dis.forward(request, response);
 			
 		}
 		else
 		{
-			List<Student> stuDetails = StudentDBUtil.getStudentDetails(id);
-			request.setAttribute("stuDetails", stuDetails);
-			
-			RequestDispatcher dis = request.getRequestDispatcher("studentAccount.jsp");
+			RequestDispatcher dis = request.getRequestDispatcher("unsuccess.jsp");
 			dis.forward(request, response);
 			
-		}	
+		}
 		
 	}
 
-}
+
+	}
+
+
